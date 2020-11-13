@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;  
+    text-align: center;
+    display: table;
+    clear: both;
+}
+ html {
+     font-size: 10px;
+
+ }
+ body{
+     width:80vw;
+     min-width: 800px;
+     margin: 0 auto;
+     height: 100vh;
+ }
+ div{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: grey;
+    float: left;
+
+ }
+ h1 {
+    font-family: "Arial";
+    color: lightgreen;
+    text-align: center;
+
+ }
+ h3 {
+    font-family: "Arial";
+    color: blue;
+ 
+ }
+
+ p,
+ li {
+     font-family: "trebuchei MS";
+     color: red;
+ }
+ #subs {
+     background-color: lightgray;
+ }

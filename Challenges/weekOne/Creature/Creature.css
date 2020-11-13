@@ -1,0 +1,195 @@
+.wrapper {  
+}
+.bird{
+    margin: 100px;
+}
+.head {
+    width: 75px;
+    height: 75px;
+    border: solid 2px red;
+    background-color: red;
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    border-radius: 15px;
+    z-index: 1;
+    position:relative;
+    left: 12px;
+    top: 15px;
+    background-color: white;
+}
+.inner_eye {
+    width: 8px;
+    height: 8px;
+    border: solid 1px black;
+    border-radius: 5px;
+    position: relative;
+    left: 2px;
+    top: 12px;
+    background-color: black;
+}
+
+.body{
+    width: 130px;
+    height: 60px;
+    border: solid 1px red;
+    border-radius: 0 0 60px 45px;
+    margin: 0px;
+    position: relative;
+    left: 2em;
+    top: -2px;
+    background-color: red;
+}
+.wing {
+    width: 80px;
+    height: 30px;
+    border: solid 1px orange;
+    border-radius: 0 0 60px 45px;
+    margin: 0px;
+    position: relative;
+    left: 2em;
+    top: 1em;
+    background-color: rgb(214, 55, 16);
+}
+.beak {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 40px 15px 0;
+    border-color: transparent gold transparent transparent;
+    position: relative;
+    left: -2.4em;
+    top: 5px;
+    transform: rotate(345deg);
+}
+.mouth {
+    width: 30px;
+    height: 1px;
+    border: 0;
+    border-radius: 0 0 45px 45px;
+    margin: 16px;
+    position: relative;
+    left: -.75em;
+    top: -1em;
+    background-color: black;
+}
+.tail{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 40px 15px 0;
+    border-color: transparent red transparent transparent;
+    position: relative;
+    left: 155px;
+    top: -80px;
+    transform: rotate(345deg);
+}
+.right_leg {
+    width: 40px;
+    height: 2px;
+    border: 0;
+    margin: 0px;
+    position: relative;
+    left: 75px;
+    top: -30px;
+    background-color: black;
+    transform: rotate(290deg);
+}
+.right_foot {
+    margin: 0px;
+    position: relative;
+    left: -35px;
+    top: 0px;
+    transform: rotate(-90deg);
+}
+.left_leg {
+    width: 62px;
+    height: 2px;
+    border: 0;
+    margin: 16px;
+    position: relative;
+    left: 60px;
+    top: -37px;
+    background-color: black;
+    transform: rotate(280deg);
+}
+.left_foot {
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    transform: rotate(290deg);
+}
+.toe_1 {
+    width: 15px;
+    height: 3px;
+    border: 0;
+   margin: 16px;
+    position: relative;
+    left: 23px;
+    top: 32px;
+    background-color: black;
+    transform: rotate(340deg);
+
+}
+.toe_2 {
+    width: 15px;
+    height: 3px;
+    border: 0;margin: 16px;
+    position: relative;
+    left: 21px;
+    top: 10px;
+    background-color: black;
+    transform: rotate(320deg);
+}
+.toe_3 {
+    width: 15px;
+    height: 3px;
+    border: 0;
+    margin: 16px;
+    position: relative;
+    left: 18px;
+    top: -12px;
+    background-color: black;
+    transform: rotate(290deg);
+}
+
+.toe_4 {
+    width: 15px;
+    height: 3px;
+    border: 0;
+   margin: 16px;
+    position: relative;
+    left: 22px;
+    top: -19px;
+    background-color: black;
+    transform: rotate(340deg);
+
+}
+.toe_5 {
+    width: 15px;
+    height: 3px;
+    border: 0;
+    margin: 16px;
+    position: relative;
+    left: 19px;
+    top: -42px;
+    background-color: black;
+    transform: rotate(320deg);
+}
+.toe_6 {
+    width: 15px;
+    height: 3px;
+    border: 0;
+    margin: 0px;
+    position: relative;
+    left: 32px;
+    top: -64px;
+    background-color: black;
+    transform: rotate(290deg);
+}

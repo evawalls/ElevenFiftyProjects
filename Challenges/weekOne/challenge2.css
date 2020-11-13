@@ -1,0 +1,80 @@
+
+body {
+    background: linear-gradient(180deg, 
+    #312f42 0%, 
+    #56374b 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  input {
+    border: none;
+    border-radius: 2px;
+    margin: 10px;
+    padding:5px;
+    width:200px;
+  }
+  button {
+      background-color: rgba(204, 90, 113) 1;
+      color: black;
+      width: 210px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      font-weight: bolder;
+      border-radius: 5px;
+  }
+  #login {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  h1 {
+      color: white;
+      margin: 10%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3em;
+  }
+  h2 {
+    color: white;
+    margin: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+  #login-bg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5%;
+      background-color: #56374b;
+      width: 300px;
+      padding: 10px 30px 30px 30px;
+      border-radius: 5px;
+  }

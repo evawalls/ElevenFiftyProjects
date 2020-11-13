@@ -1,0 +1,26 @@
+﻿/* For Testing */
+/*body {
+    background-color: blue;
+}*/
+
+/* rule-set #1 */
+#number-one{
+    color: red;
+}
+
+/* rule-set #2 */
+#number-two{
+    font-size: 16px;
+    font-family: Arial;
+}
+
+/* rule-set #3 */
+.first-class{
+    color: green;
+}
+
+/* rule-set #4 */
+.second-class{
+    font-size: 24px;
+    font-family: Arial;
+}
